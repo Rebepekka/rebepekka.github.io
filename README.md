@@ -15,7 +15,14 @@
 <li>register.php</li>
 <li>update_address.php</li>
 <li>update_form.html</li>
-<li></li>
-<li></li>
-<li></li>
+<li>gymwearstyle.css</li>
+<li>homestyle.css</li>
+<li>loginstyle.css</li>
+<li>membershipstyle.css</li>
+<li>otherusersstyle.css</li>
+<li>profilestyle.css</li>
+<li>registerstyle.css</li>
+<li>style.css</li>
 </ul>
+<h2>Heta</h2>
+<li></li>
