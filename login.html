@@ -20,6 +20,14 @@
     </label>
     <input type="password" name="password" placeholder="Password" id="password" required>
     <input type="submit" value="Login">
+    <script>
+      function closePopupAndRedirect() {
+          // Sulje pikkuikkuna
+          window.close();
+          // Ohjaa toiselle sivulle
+          window.opener.location.replace('home.php');
+      }
+      </script>
   </form>
 </div>
 </body>
