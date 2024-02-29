@@ -14,12 +14,13 @@ body {
 	height: 50px;
 	}
 .text h1 {
-	color: black;
+	color: white;
 	padding: 0.5em; /* täyttö elementin sisällä */
 	text-align: center;
 	}
 .users {
-	background-color: hsla(50, 3%, 70%, 65);
+	background-color: rgb(110, 104, 94, 0.75); /* neljäs arvo läpinäkyvyys */
+	color: white;
 	margin-left: 25%;
 	margin-right: 25%;
 	height: 100%;
