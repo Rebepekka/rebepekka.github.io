@@ -1,13 +1,6 @@
 <?php
 session_start();
 include ("./connect.php"); // Linkki: luodaan yhteys.
-// $initials=parse_ini_file("./.ht.settings.ini");
-// Muodostetaan yhteys
-// $con=mysqli_connect($initials["host"], $initials["user"], $initials["pass"], $initials["name"]);
-// if (mysqli_connect_errno()) {
-    // Jos yhteydessä on virhe, pysäytä komentosarja ja näytä virhe.
-//     exit('Failed to connect to MySQL: ' . mysqli_connect_error());
-// }
 // Tarkistetaan, onko sähköposti ja koodi olemassa
 if (isset($_GET['email'], $_GET['code'])) {
 	if ($stmt = $con->prepare('SELECT * FROM accounts WHERE email = ? AND activation_code = ?')) {
