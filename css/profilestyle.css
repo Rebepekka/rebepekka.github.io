@@ -40,10 +40,20 @@ h1:hover {
     background-repeat: no-repeat;
     padding: 2%;
 }
-.content h2, .content p, .content td { 
+.content h2 { 
     margin-left: 2%;
     font-size: larger;
     font-weight: bolder;
+}
+.content p {
+    margin-left: 2%;
+    font-size: larger;
+    font-weight: bolder; 
+}
+.content td {
+    margin-left: 2%;
+    font-size: larger;
+    font-weight: bolder;     
 }
 footer {
     margin-top: 60px;
