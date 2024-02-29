@@ -11,16 +11,17 @@ body {
     background-color:black; 
 }
 header, h1 {
+    font-size: 25px;
     background-color: black;
     margin-top: 40px;
     height: 70px;
     text-align: center;
     filter: brightness(90%);
 }
+h1:hover {
+    color: rgb(142, 138, 138);
+} 
 .headline {
-    display: flex; /* tehdään elementistä flex */
-    align-items: center; /* tasataan elementit keskeltä pystysuunnassa*/
-    width: 100%;
     margin: auto; 
     background-position: center;
     background-repeat: no-repeat;
