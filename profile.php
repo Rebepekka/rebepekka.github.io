@@ -3,7 +3,7 @@
 session_start();
 // Jos ei ole kirjautunus, ohjataan kirjautumissivulle
 if (!isset($_SESSION['loggedin'])) {
-	header('Location: membership.html');
+	header('Location: index.html');
 	exit;
 }
 $initials=parse_ini_file("./.ht.settings.ini");
