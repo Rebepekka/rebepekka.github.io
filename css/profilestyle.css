@@ -25,15 +25,14 @@ h1:hover {
 .headline {
     margin: auto; 
     background-position: center;
-    /* background-repeat: no-repeat; */
-    height: 100px;
-    /* filter: brightness(80%); */
-    background-color: rgb(142, 138, 138);
+    height: 90px;
+    background-color: rgb(110, 104, 94, 0.95); /* neljäs arvo läpinäkyvyys */
     padding: 2%;
-    font-size: 40px;
+    font-size: 35px;
+    filter: brightness(90%);
 } 
 .content {
-    background-color: rgb(194, 192, 192); /* taustaväri */
+    background-color: rgb(110, 104, 94, 0.95); /* neljäs arvo läpinäkyvyys */
     margin: auto; 
     background-position: center;
     /* background-repeat: no-repeat; */
@@ -44,7 +43,7 @@ h1:hover {
     font-weight: bolder; 
 }
 .content table {
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bolder;    
 }
 .update, .update a {

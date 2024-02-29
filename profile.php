@@ -69,7 +69,7 @@ $stmt->close();
 		
 
 		<div class="content">
-			<p>Your account details are below:</p>
+			<p>YOUR ACCOUNT DETAILS ARE BELOW:</p>
 				<table>
 					<tr>
 						<td>Username:</td>
