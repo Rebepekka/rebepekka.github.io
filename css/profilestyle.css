@@ -50,10 +50,11 @@ h1:hover {
     font-size: larger;
     font-weight: bolder; 
 }
-.content td {
+.content table {
     margin-left: 2%;
-    font-size: larger;
-    font-weight: bolder;     
+    font-size: 25px;
+    font-weight: bolder;    
+
 }
 footer {
     margin-top: 60px;
