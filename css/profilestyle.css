@@ -1,69 +1,40 @@
 * {
     box-sizing: border-box;
-    font-size: 25px;
-    font-size: larger;
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: bolder;
     text-shadow: 1px 1px 2px rgb(60, 13, 13), 0 0 1em black, 0 0 0.6em black;
 }
 body {
     background-color:black; 
 }
-header, h1 {
-    margin-top: 40px;
+header {
     height: 70px;
-    font-size: 25px;
-    font-weight: bolder;
-    text-align: center;
-    font-weight: bolder;
-    filter: brightness(90%);
 }
-h1:hover {
-    color: rgb(142, 138, 138);
-} 
 .headline {
     margin: auto; 
     background-position: center;
     height: 90px;
     background-color: rgb(110, 104, 94, 0.75); /* neljäs arvo läpinäkyvyys */
     padding: 2%;
-    font-size: 35px;
-    filter: brightness(80%);
+    font-size: 30px;
+    filter: brightness(85%);
 } 
 .content {
     background-color: rgb(110, 104, 94, 0.75); /* neljäs arvo läpinäkyvyys */
     margin: auto; 
     background-position: center;
-    /* background-repeat: no-repeat; */
     padding: 2%;
 }
 .content p {
-    font-size: larger;
+    font-size: 20px;
     font-weight: bolder; 
 }
 .content table {
-    font-size: 20px;
+    font-size: 15px;
     font-weight: bolder;    
 }
 .update, .update a {
-    font-size: 25px;
+    font-size: 18px;
     font-weight: bolder;
     color: white;
-}
-footer {
-    margin-top: 60px;
-    height: 220px;
-    display: flex;
-    justify-content: center; /* Keskittää sisällön vaakasuunnassa */
-    align-items: center; /* Keskittää sisällön pystysuunnassa */
-}
-address {
-    font-size: 20px;
-    color: white; /* Valkoinen teksti */
-    text-align: center; /* Keskittää tekstin vaakasuunnassa */
-    padding: 20px; /* Pienennetty paddingia */
-    font-weight: bolder;
-    filter: brightness(80%);
-    text-shadow: 1px 1px 2px rgb(60, 13, 13), 0 0 1em black, 0 0 0.6em black;
 }
