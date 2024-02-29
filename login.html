@@ -23,7 +23,8 @@
     <script>
       function closePopupAndRedirect() {
           // Sulje pikkuikkuna
-          window.close();
+          // window.close();
+          window.open('', '_self').close();
           // Ohjaa toiselle sivulle
           window.opener.location.replace("home.php");
       }
