@@ -40,19 +40,3 @@ h1:hover {
 	/* background-repeat: no-repeat; */
 	padding: 2%;
 }
-footer {
-	margin-top: 60px;
-	height: 220px;
-	display: flex;
-	justify-content: center; /* Keskittää sisällön vaakasuunnassa */
-	align-items: center; /* Keskittää sisällön pystysuunnassa */
-}
-address {
-	font-size: 20px;
-	color: white; /* Valkoinen teksti */
-	text-align: center; /* Keskittää tekstin vaakasuunnassa */
-	padding: 20px; /* Pienennetty paddingia */
-	font-weight: bolder;
-	filter: brightness(90%);
-	text-shadow: 1px 1px 2px rgb(60, 13, 13), 0 0 1em black, 0 0 0.6em black;
-}
