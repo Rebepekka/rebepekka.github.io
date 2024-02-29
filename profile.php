@@ -8,10 +8,10 @@ if (!isset($_SESSION['loggedin'])) {
 }
 $initials=parse_ini_file("./.ht.settings.ini");
 // Muodostetaan yhteys.
-$con=mysqli_connect($initials["host"], $initials["user"], $initials["pass"], $initials["name"]);
-if (mysqli_connect_errno()) {
-	exit('Failed to connect to MySQL: ' . mysqli_connect_error());
-}
+// $con=mysqli_connect($initials["host"], $initials["user"], $initials["pass"], $initials["name"]);
+// if (mysqli_connect_errno()) {
+// 	exit('Failed to connect to MySQL: ' . mysqli_connect_error());
+// }
 // Haetaan käyttäjän tiedot tietokannasta.
 $stmt = $con->prepare('SELECT password, email FROM accounts WHERE id = ?');
 // Haetaan tiedot id:llä
