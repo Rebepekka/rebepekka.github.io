@@ -35,11 +35,11 @@ $stmt->close();
 	<header>
 	<a href="index.html"><h1>BODYBUILDERS</h1></a>
 	</header>
+<div class="container">
 			<div class="headline">
 				<p>PROFILEPAGE</p>
 			</div>
                 <!-- Linkit uloskirjautumiseen ja etusivulle -->
-<div class="container">
           <nav class="navbar navbar-expand-xl navbar-dark bg-black">        
             <div class="container-fluid">
               <ul class="navbar-nav mr-auto">  
