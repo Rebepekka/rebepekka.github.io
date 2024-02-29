@@ -11,6 +11,8 @@ body {
 	background-color: black;
 	}
 header, h1 {
+	background-color:black;
+	color: white;
     margin-top: 40px;
     height: 70px;
     font-size: 25px;
