@@ -59,9 +59,6 @@ footer {
             <div class="container-fluid">
               <ul class="navbar-nav mr-auto">  
                 <li class="nav-item active">
-                  <a class="nav-link" href="gymwearmember.html" style="font-size: 19px; filter: brightness(95%);">GYMWEAR</a>
-                </li>  
-                <li class="nav-item active">
                   <a class="nav-link" href="profile.php" style="font-size: 19px; filter: brightness(95%);">PROFILE</a>
                 </li>
                 <li class="nav-item active">
