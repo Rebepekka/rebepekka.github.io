@@ -7,7 +7,9 @@
 	<title>Document</title>
 </head>
 <body>
-	<header></header>
+<header>
+	<a href="index.html"><h1>BODYBUILDERS</h1></a>
+</header>
 	<div class="text">
 		<h1>Other users</h1>
 	</div>
