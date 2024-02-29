@@ -68,7 +68,6 @@ if ($stmt = $con->prepare('SELECT id, password FROM accounts WHERE username = ?'
     window.close();
     window.location.href = "home.php";
     </script>';
-    exit();
 } else {
     // SQL-lauseessa on jotain vikaa. On tarkistettava, että tilitaulukossa on kaikki kolme kenttää.
     echo 'Could not prepare statement!';
