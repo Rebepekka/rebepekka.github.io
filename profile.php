@@ -28,7 +28,7 @@ $stmt->close();
 		<meta charset="utf-8">
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 		<link href="css/profilestyle.css" rel="stylesheet" type="text/css">
-		<title>Profile Page</title>
+		<title>ProfilePage</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer">
 	</head>
 	<body>
@@ -36,7 +36,7 @@ $stmt->close();
 	<a href="index.html"><h1>BODYBUILDERS</h1></a>
 	</header>
 			<div class="headline">
-				<p>Profile Page</p>
+				<p>PROFILEPAGE</p>
 			</div>
                 <!-- Linkit uloskirjautumiseen ja etusivulle -->
 <div class="container">
@@ -69,7 +69,7 @@ $stmt->close();
 		
 
 		<div class="content">
-			<h2>Your account</h2>
+			<h2>YOUR ACCOUNT</h2>
 			<div>
 				<p>Your account details are below:</p>
 				<table>
@@ -89,6 +89,9 @@ $stmt->close();
 			</div>
 		</div>
 		</div>
+		<footer>
+    	<address>BODYBUILDERS<br>Punttikuja 313<br>12345 PUNTTILA</address>
+		</footer>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script> 
 	</body>
 </html>

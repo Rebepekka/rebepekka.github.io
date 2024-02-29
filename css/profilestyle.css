@@ -4,18 +4,17 @@
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bolder;
+    text-shadow: 1px 1px 2px rgb(60, 13, 13), 0 0 1em black, 0 0 0.6em black;
 }
 body {
     background-color:black; 
 }
 header, h1 {
-    background-color: hsla(50, 3%, 1%, .95);
+    background-color: black;
     margin-top: 40px;
     height: 70px;
     font-size: 25px;
-    font-weight: bolder;
     text-align: center;
-    font-weight: bolder;
     filter: brightness(90%);
 }
 .headline {
@@ -30,10 +29,8 @@ header, h1 {
 } 
 .headline p {
     font-size: 40px;
-    padding-left: 25%;
-    padding-top: 25%;
-    font-weight: bolder;
-    text-shadow: 1px 1px 2px rgb(60, 13, 13), 0 0 1em black, 0 0 0.6em black;
+    padding-left: 15%;
+    padding-top: 5%;
 }
 .content {
     background-color: rgb(194, 192, 192); /* taustaväri */
@@ -48,12 +45,21 @@ header, h1 {
 }
 .content a { 
     margin-left: 2%;
-    font-size: large;
     color: black;
 }
 footer {
-    background-color: black;
-    margin-left: 20%; /* asetetaan marginaali */
-    margin-right: 20%; /* asetetaan marginaali */
-    height: 400px;
+    margin-top: 60px;
+    height: 220px;
+    display: flex;
+    justify-content: center; /* Keskittää sisällön vaakasuunnassa */
+    align-items: center; /* Keskittää sisällön pystysuunnassa */
+}
+address {
+    font-size: 20px;
+    color: white; /* Valkoinen teksti */
+    text-align: center; /* Keskittää tekstin vaakasuunnassa */
+    padding: 20px; /* Pienennetty paddingia */
+    font-weight: bolder;
+    filter: brightness(90%);
+    text-shadow: 1px 1px 2px rgb(60, 13, 13), 0 0 1em black, 0 0 0.6em black;
 }
