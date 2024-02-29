@@ -8,19 +8,23 @@
 body {
     background-color:black; 
 }
-header {
+header, h1 {
     background-color: hsla(50, 3%, 1%, .95);
-  /*  margin-left: 20%; /* asetetaan marginaali */
-  /*  margin-right: 20%; /* asetetaan marginaali */
-    height: 100px;
+    margin-top: 40px;
+    height: 70px;
+    font-size: 25px;
+    font-weight: bolder;
+    text-align: center;
+    font-weight: bolder;
+    filter: brightness(90%);
 }
 .headline {
     display: flex; /* tehdään elementistä flex */
     align-items: center; /* tasataan elementit keskeltä pystysuunnassa*/
     width: 100%;
     margin: auto; 
-    /* background-position: center;
-    background-repeat: no-repeat; */
+    background-position: center;
+    background-repeat: no-repeat;
     height: 150px;
     /* filter: brightness(80%); */
 } 
@@ -33,8 +37,9 @@ header {
 }
 .content {
     background-color: rgb(194, 192, 192); /* taustaväri */
-    margin-left: 20%; /* asetetaan marginaali */
-    margin-right: 20%; /* asetetaan marginaali */
+    margin: auto; 
+    background-position: center;
+    background-repeat: no-repeat;
     padding-top: 0.5%;
     padding-bottom: 1.5%;
 }
