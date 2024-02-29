@@ -1,5 +1,6 @@
 header {
-	background-color: hsla(50, 3%, 20%, .65);
+	/* background-color: hsla(50, 3%, 20%, .65); */
+	background-color: white;
 	margin-left: 25%;
 	margin-right: 25%;
 	height: 200px;
@@ -14,13 +15,12 @@ body {
 	height: 50px;
 	}
 .text h1 {
-	color: white;
+	color: black;
 	padding: 0.5em; /* täyttö elementin sisällä */
 	text-align: center;
 	}
 .users {
-	background-color: rgb(110, 104, 94, 0.75); /* neljäs arvo läpinäkyvyys */
-	color: white;
+	background-color: hsla(50, 3%, 70%, 65);
 	margin-left: 25%;
 	margin-right: 25%;
 	height: 100%;
