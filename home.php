@@ -102,7 +102,7 @@ footer {
 </div>
 <div class="section">
     <div class="row">
-    <img class="img-responsive" src="images/programs.jpg" alt="gym programs">
+    <img class="img-responsive" src= alt="gym programs">
     <div class="text-box"><a href="programs.html">PROGRAMS</a></div>
     <div class="text"><a href="programs.html">WORKOUT PROGRAMS</a>
     </div>
