@@ -69,9 +69,7 @@ $stmt->close();
 		
 
 		<div class="content">
-			<p>YOUR ACCOUNT</p>
-			<div>
-				<p>Your account details are below:</p>
+			<p>Your account details are below:</p>
 				<table>
 					<tr>
 						<td>Username:</td>
@@ -86,7 +84,6 @@ $stmt->close();
                     <!-- Päivitetään tiedot update_form.html -tiedostossa -->
 				<a href="update_form.html"><i class="fas fa-user-edit"></i><strong>Update information</strong></a> 
 				</div>
-			</div>
 		</div>
 		</div>
 		<footer>
