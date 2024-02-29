@@ -47,7 +47,7 @@ h1:hover {
     font-size: 25px;
     font-weight: bolder;    
 }
-.update {
+.update, .update a {
     font-size: 25px;
     font-weight: bolder;
     color: white;
