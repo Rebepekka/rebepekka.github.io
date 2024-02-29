@@ -62,15 +62,8 @@ if ($stmt = $con->prepare('SELECT id, password FROM accounts WHERE username = ?'
     $activate_link = 'http://yourdomain.com/phplogin/activate.php?email=' . $_POST['email'] . '&code=' . $uniqid; // $activate_link = '' pitää päivittää!!
     $message = '<p>Please click the following link to activate your account: <a href="' . $activate_link . '">' . $activate_link . '</a></p>';
     mail($_POST['email'], $subject, $message, $headers);
-    echo 'Please check your email to activate your account!';
-    //  echo "<a href='index.html'> Mainpage</a>!";
-    echo '<script>
-    function closePopupAndRedirect() {
-        window.close();
-        window.opener.location.replace("home.php");
-    }
-    closePopupAndRedirect(); // Kutsu funktiota
-</script>';
+    echo 'Thank you for signing up! Next, go to log in. ';
+     echo "<a href='login.html'> Log in</a>!";
     exit();
 } else {
     // SQL-lauseessa on jotain vikaa. On tarkistettava, että tilitaulukossa on kaikki kolme kenttää.
