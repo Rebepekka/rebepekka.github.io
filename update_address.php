@@ -1,18 +1,17 @@
 <?php
 session_start(); // Aloita istunto
-// $initials=parse_ini_file("./.ht.settings.ini");
-include ("./connect.php"); // Linkki: luodaan yhteys.
+$initials=parse_ini_file("./.ht.settings.ini");
 // Tarkista, onko käyttäjä kirjautunut sisään
 if(!isset($_SESSION['loggedin'])) {
     echo "Kirjaudu sisään päivittääksesi osoitetietosi.";
     exit;
 }
 // Muodosta yhteys tietokantaan
-// $mysqli = new mysqli($initials["host"], $initials["user"], $initials["pass"], $initials["name"]);
+$mysqli = new mysqli($initials["host"], $initials["user"], $initials["pass"], $initials["name"]);
 // Tarkistaa, onnistuiko yhteyden muodostaminen
-// if ($mysqli->connect_error) {
-//     die('Connect Error (' . $mysqli->connect_errno . ') ' . $mysqli->connect_error);
-// }
+if ($mysqli->connect_error) {
+    die('Connect Error (' . $mysqli->connect_errno . ') ' . $mysqli->connect_error);
+}
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 // Suojaa käyttäjän syöttämät tiedot SQL-injektioita vastaan
