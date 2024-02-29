@@ -1,37 +1,35 @@
-header {
-    background-color: black;
-    margin-left: 20%; /* asetetaan marginaali */
-    margin-right: 20%; /* asetetaan marginaali */
-    height: 200px;
-}
-.navtop {
-    background-color: hsla(50, 3%, 20%, .65); /* taustaväri */
-    padding: 0.1em; /* täyttö elementin sisällä */
-    color: whitesmoke; /* tekstin väri */
-    margin-left: 20%; /* asetetaan marginaali */
-    margin-right: 20%; /* asetetaan marginaali */
-    margin-bottom: 1%; /* asetetaan marginaali */
-}
-.navtop a {
-    margin-left: 2%; /* asetetaan marginaali */
-    font-size: large; /* fonttikoko suuri */
-    padding: 0 20px; /* täyte elementin sisällä */
-    color: rgb(194, 192, 192); /* tekstin väri */
-    text-decoration: none; /* poistaa alleviivauksen */
-}
-.navtop a, i {
-    padding: 0 8px;
-}
-.navtop h1 {
-    margin-left: 2%; /* asetetaan marginaali */
-    /* padding-top: 1.5%; */
-  }
-.navtop a, h1 {
-    display: inline-flex; 
-    align-items: center; /* asettelu keskelle elementtiä */
+* {
+    box-sizing: border-box;
+    font-size: larger;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
 }
 body {
-    background-color: hsla(50, 3%, 1%, .95); /* taustaväri */
+    background-color:black; 
+}
+header {
+    background-color: hsla(50, 3%, 1%, .95);
+  /*  margin-left: 20%; /* asetetaan marginaali */
+  /*  margin-right: 20%; /* asetetaan marginaali */
+    height: 100px;
+}
+.headline {
+    display: flex; /* tehdään elementistä flex */
+    align-items: center; /* tasataan elementit keskeltä pystysuunnassa*/
+    width: 100%;
+    margin: auto; 
+    /* background-position: center;
+    background-repeat: no-repeat; */
+    height: 150px;
+    /* filter: brightness(80%); */
+} 
+.headline p {
+    font-size: 40px;
+    padding-left: 25%;
+    padding-top: 25%;
+    font-weight: bolder;
+    text-shadow: 1px 1px 2px rgb(60, 13, 13), 0 0 1em black, 0 0 0.6em black;
 }
 .content {
     background-color: rgb(194, 192, 192); /* taustaväri */

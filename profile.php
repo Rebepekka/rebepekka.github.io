@@ -32,12 +32,27 @@ $stmt->close();
 	</head>
 	<body>
 	<header></header>
-		<nav class="navtop">
-			<div>
+			<div class="headline">
 				<h1>Profile Page</h1>
+			</div>
                 <!-- Linkit uloskirjautumiseen ja etusivulle -->
-                <a href="logout.php"><i class="fas fa-sign-out-alt"></i>Log out</a>
-				<a href="home.php"><i class="fas fa-user-circle"></i>Home</a>
+<div class="container">
+          <nav class="navbar navbar-expand-xl navbar-dark bg-black">        
+            <div class="container-fluid">
+              <ul class="navbar-nav mr-auto">  
+                <li class="nav-item active">
+                  <a class="nav-link" href="home.php" style="font-size: 19px; filter: brightness(95%);">HOME</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="otherusers.php" style="font-size: 19px; filter: brightness(95%);">OTHER USERS</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="logout.php" style="font-size: 19px; filter: brightness(85%); color: gold;">LOG OUT</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+
 				<!--  Näytä Manage Users linkki vaan jos kirjautunut sisään pääkäyttäjällä Heta-->
 
 					<?php // if (isAdmin()): ?> 
@@ -48,8 +63,8 @@ $stmt->close();
 
 				<!-- <a href="home.php"><i class="fas fa-user-circle"></i>Home</a> -->
 			
-			</div>
-		</nav>
+		
+
 		<div class="content">
 			<h2>Your account</h2>
 			<div>
@@ -69,6 +84,7 @@ $stmt->close();
 				<a href="update_form.html"><i class="fas fa-user-edit"></i><strong>Update information</strong></a> 
 				</div>
 			</div>
+		</div>
 		</div>
 	</body>
 </html>
