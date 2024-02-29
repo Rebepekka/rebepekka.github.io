@@ -25,20 +25,18 @@ h1:hover {
 .headline {
     margin: auto; 
     background-position: center;
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     height: 100px;
     /* filter: brightness(80%); */
     background-color: rgb(142, 138, 138);
-} 
-.headline p {
-    text-align: center;
+    padding: 2%;
     font-size: 40px;
-}
+} 
 .content {
     background-color: rgb(194, 192, 192); /* taustaväri */
     margin: auto; 
     background-position: center;
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     padding: 2%;
 }
 .content p {
@@ -52,6 +50,7 @@ h1:hover {
 .update {
     font-size: 25px;
     font-weight: bolder;
+    color: white;
 }
 footer {
     margin-top: 60px;
