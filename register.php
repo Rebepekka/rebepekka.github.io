@@ -66,7 +66,7 @@ if ($stmt = $con->prepare('SELECT id, password FROM accounts WHERE username = ?'
     //  echo "<a href='index.html'> Mainpage</a>!";
     echo '<script>
     window.close();
-    window.location.href = 'home.php'; // Ohjaa käyttäjä toiselle sivulle
+    window.location.href = "home.php";
     </script>';
     exit();
 } else {
