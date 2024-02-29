@@ -6,7 +6,8 @@ if (!isset($_SESSION['loggedin'])) {
 	header('Location: index.html');
 	exit;
 }
-$initials=parse_ini_file("./.ht.settings.ini");
+include ("./connect.php"); // Linkki: luodaan yhteys.
+// $initials=parse_ini_file("./.ht.settings.ini");
 // Muodostetaan yhteys.
 // $con=mysqli_connect($initials["host"], $initials["user"], $initials["pass"], $initials["name"]);
 // if (mysqli_connect_errno()) {
