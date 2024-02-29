@@ -65,8 +65,12 @@ if ($stmt = $con->prepare('SELECT id, password FROM accounts WHERE username = ?'
     echo 'Please check your email to activate your account!';
     //  echo "<a href='index.html'> Mainpage</a>!";
     echo '<script>
-    window.location.href = "home.php";
-    </script>';
+    function closePopupAndRedirect() {
+        window.close();
+        window.opener.location.replace("home.php");
+    }
+    closePopupAndRedirect(); // Kutsu funktiota
+</script>';
     exit();
 } else {
     // SQL-lauseessa on jotain vikaa. On tarkistettava, että tilitaulukossa on kaikki kolme kenttää.
