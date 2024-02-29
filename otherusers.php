@@ -8,10 +8,10 @@
 	<title>Document</title>
 </head>
 <body>
+<div class="container">
 <header>
 	<a href="index.html"><h1>BODYBUILDERS</h1></a>
 </header>
-<div class="container">
 			<div class="headline">
 				<p>OTHER USERS</p>
 			</div>
