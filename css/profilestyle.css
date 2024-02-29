@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
     color: white;
+    font-weight: bolder;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-shadow: 1px 1px 2px rgb(60, 13, 13), 0 0 1em black, 0 0 0.6em black;
 }
@@ -16,8 +17,17 @@ header {
     height: 90px;
     background-color: rgb(110, 104, 94, 0.75); /* neljäs arvo läpinäkyvyys */
     padding: 2%;
+} 
+.headline p {
     font-size: 30px;
+    font-weight: bolder;
     filter: brightness(85%);
+}
+.nav-link:hover {
+    background-color: rgb(57, 56, 56, 0.45);
+  }
+h1:hover {
+    color: rgb(142, 138, 138);
 } 
 .content {
     background-color: rgb(110, 104, 94, 0.75); /* neljäs arvo läpinäkyvyys */
@@ -26,15 +36,16 @@ header {
     padding: 2%;
 }
 .content p {
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bolder; 
+    filter: brightness(85%);
 }
 .content table {
-    font-size: 15px;
+    font-size: 20px;
     font-weight: bolder;    
 }
 .update, .update a {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bolder;
     color: white;
 }
