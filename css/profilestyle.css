@@ -26,7 +26,7 @@ h1:hover {
     margin: auto; 
     background-position: center;
     background-repeat: no-repeat;
-    height: 150px;
+    height: 100px;
     /* filter: brightness(80%); */
 } 
 .headline p {
@@ -40,11 +40,6 @@ h1:hover {
     background-repeat: no-repeat;
     padding: 2%;
 }
-.content h2 { 
-    margin-left: 2%;
-    font-size: larger;
-    font-weight: bolder;
-}
 .content p {
     margin-left: 2%;
     font-size: larger;
@@ -54,7 +49,10 @@ h1:hover {
     margin-left: 2%;
     font-size: 25px;
     font-weight: bolder;    
-
+}
+.update {
+    font-size: 25px;
+    font-weight: bolder;
 }
 footer {
     margin-top: 60px;
