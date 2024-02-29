@@ -63,9 +63,6 @@ $con->close();
 ?>
 </div>
 </div>
-<footer>
-    <address>BODYBUILDERS<br>Punttikuja 313<br>12345 PUNTTILA</address>
-</footer>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script> 
 </body>
 </html>
