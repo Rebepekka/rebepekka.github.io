@@ -82,7 +82,7 @@ $stmt->close();
 				</table><br>
 				<div class="update">
                     <!-- Päivitetään tiedot update_form.html -tiedostossa -->
-				<a href="update_form.html"><i class="fas fa-user-edit"></i>Update information</a> 
+				<a href="update_form.html"><i class="fas fa-user-edit"></i> Update information</a> 
 				</div>
 		</div>
 		</div>

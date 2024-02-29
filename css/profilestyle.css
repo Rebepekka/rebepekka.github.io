@@ -26,13 +26,13 @@ h1:hover {
     margin: auto; 
     background-position: center;
     height: 90px;
-    background-color: rgb(110, 104, 94, 0.95); /* neljäs arvo läpinäkyvyys */
+    background-color: rgb(110, 104, 94, 0.75); /* neljäs arvo läpinäkyvyys */
     padding: 2%;
     font-size: 35px;
     filter: brightness(90%);
 } 
 .content {
-    background-color: rgb(110, 104, 94, 0.95); /* neljäs arvo läpinäkyvyys */
+    background-color: rgb(110, 104, 94, 0.75); /* neljäs arvo läpinäkyvyys */
     margin: auto; 
     background-position: center;
     /* background-repeat: no-repeat; */
