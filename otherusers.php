@@ -10,7 +10,7 @@
 <body>
 <header>
 	<a href="index.html"><h1>BODYBUILDERS</h1></a>
-	</header>
+</header>
 <div class="container">
 			<div class="headline">
 				<p>OTHER USERS</p>

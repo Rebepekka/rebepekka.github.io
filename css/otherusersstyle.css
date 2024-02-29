@@ -33,6 +33,7 @@ h1:hover {
 } 
 .users {
 	height: 100%;
+	color: white;
 	background-color: rgb(110, 104, 94, 0.75); /* neljäs arvo läpinäkyvyys */
 	margin: auto; 
 	background-position: center;
