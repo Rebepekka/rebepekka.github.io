@@ -28,6 +28,7 @@ h1:hover {
     background-repeat: no-repeat;
     height: 100px;
     /* filter: brightness(80%); */
+    color: rgb(142, 138, 138);
 } 
 .headline p {
     text-align: center;
@@ -49,10 +50,6 @@ h1:hover {
     margin-left: 2%;
     font-size: 25px;
     font-weight: bolder;    
-}
-.update {
-    font-size: 25px;
-    font-weight: bolder;
 }
 footer {
     margin-top: 60px;

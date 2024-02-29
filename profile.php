@@ -80,10 +80,9 @@ $stmt->close();
 						<td><?=$email?></td>
 					</tr>
 				</table><br>
-				<div class="update">
+
                     <!-- Päivitetään tiedot update_form.html -tiedostossa -->
-				<a href="update_form.html"><i class="fas fa-user-edit"></i><strong>Update information</strong></a> 
-				</div>
+				<a href="update_form.html"><i class="fas fa-user-edit"></i>Update information</a> 
 		</div>
 		</div>
 		<footer>
