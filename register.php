@@ -63,9 +63,11 @@ if ($stmt = $con->prepare('SELECT id, password FROM accounts WHERE username = ?'
     $message = '<p>Please click the following link to activate your account: <a href="' . $activate_link . '">' . $activate_link . '</a></p>';
     mail($_POST['email'], $subject, $message, $headers);
     echo 'Please check your email to activate your account!';
-    // echo "<a href='index.html'> Mainpage</a>!";
-    echo '<script>window.close();</script>';
-    header('Location: membership.html');
+    //  echo "<a href='index.html'> Mainpage</a>!";
+    echo '<script>
+    window.close();
+    window.location.href = 'home.php'; // Ohjaa käyttäjä toiselle sivulle
+    </script>';
     exit();
 } else {
     // SQL-lauseessa on jotain vikaa. On tarkistettava, että tilitaulukossa on kaikki kolme kenttää.
