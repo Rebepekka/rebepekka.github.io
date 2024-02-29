@@ -2,35 +2,15 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="css/otherusersstyle.css" rel="stylesheet" type="text/css" />
-	<title>Other users</title>
+	<title>Document</title>
 </head>
 <body>
-<div class="container">
-<header>
-	<a href="index.html"><h1>BODYBUILDERS</h1></a>
-</header>
-			<div class="headline">
-				<p>OTHER USERS</p>
-			</div>
-                <!-- Linkit uloskirjautumiseen ja etusivulle -->
-          <nav class="navbar navbar-expand-xl navbar-dark bg-black">        
-            <div class="container-fluid">
-              <ul class="navbar-nav mr-auto">  
-                <li class="nav-item active">
-                  <a class="nav-link" href="home.php" style="font-size: 19px; filter: brightness(95%);">HOME</a>
-                </li>
-                <li class="nav-item active">
-                  <a class="nav-link" href="otherusers.php" style="font-size: 19px; filter: brightness(95%);">OTHER USERS</a>
-                </li>
-                <li class="nav-item active">
-                  <a class="nav-link" href="logout.php" style="font-size: 19px; filter: brightness(85%); color: gold;">LOG OUT</a>
-                </li>
-              </ul>
-            </div>
-          </nav>
+	<header></header>
+	<div class="text">
+		<h1>Other users</h1>
+	</div>
 
 	<div class="users">
 
@@ -61,8 +41,7 @@ if ($stmt = $con->prepare('SELECT username FROM accounts')) {
 }
 $con->close();
 ?>
-</div>
-</div>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script> 
+
+	</div>
 </body>
 </html>
